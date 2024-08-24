@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(45deg, #ff7e5f, #feb47b);
+}
+
+.container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 350px;
+}
+
+h2 {
+    margin-bottom: 25px;
+    font-size: 24px;
+}
+
+.input-group {
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    font-size: 18px;
+    box-sizing: border-box;
+}
+
+.btn-consultar {
+    background-color: #00c6ff; 
+    color: white; 
+    padding: 15px; 
+    font-size: 18px;
+    border: none; 
+    border-radius: 10px; 
+    cursor: pointer; 
+    width: 100%;
+}
+
+.btn-consultar:hover {
+    background-color: #00a5e5; 
+}
+
+
+.result {
+    margin-top: 25px;
+    text-align: left;
+    font-size: 18px;
+}
+
+.result span {
+    font-weight: bold;
+}
+
+/* Estilo para o status */
+.status-info {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Cor específica para o valor do status */
+.status-value {
+    font-weight: bold;
+}
+
+/* Estilo para a data de pagamento */
+.data-info {
+    margin-top: 5px;
+    font-style: italic;
+    color: #333;
+}
+
+/* Cor específica para o valor da data */
+.data-value {
+    font-weight: normal;
+}
+
+/* Estilo para o método de pagamento */
+.metodo-info {
+    margin-top: 5px;
+    font-style: italic;
+    color: #333;
+}
+
+/* Cor específica para o valor do método */
+.metodo-value {
+    font-weight: normal;
+}
