@@ -38,5 +38,5 @@ Basicamente eu só fiz esse site para usar no meu projeto [Consultor de pagament
     ```
     http://localhost:3000
     ```
-### **🔧 📸 Tela do site em Execução**
+### **📸 Tela do site em Execução**
 <h1 align="center"> <img src="https://ik.imagekit.io/tntifmcqk/Screenshot_4.png?updatedAt=1724548683766" alt="Tela de execução do script"/> </h1>
