@@ -54,48 +54,29 @@ input[type="text"] {
     background-color: #00a5e5; 
 }
 
-
 .result {
     margin-top: 25px;
     text-align: left;
     font-size: 18px;
 }
 
-.result span {
-    font-weight: bold;
-}
-
-/* Estilo para o status */
 .status-info {
     font-weight: bold;
     margin-top: 10px;
 }
 
-/* Cor específica para o valor do status */
 .status-value {
     font-weight: bold;
 }
 
-/* Estilo para a data de pagamento */
-.data-info {
-    margin-top: 5px;
-    font-style: italic;
-    color: #333;
-}
-
-/* Cor específica para o valor da data */
-.data-value {
-    font-weight: normal;
-}
-
-/* Estilo para o método de pagamento */
+.data-info,
 .metodo-info {
     margin-top: 5px;
     font-style: italic;
     color: #333;
 }
 
-/* Cor específica para o valor do método */
+.data-value,
 .metodo-value {
     font-weight: normal;
 }
